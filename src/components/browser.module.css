@@ -1,0 +1,27 @@
+.browser {
+  display: flex;
+  padding: 1.5rem 0;
+}
+
+.browser input {
+  padding: 1rem;
+  outline: none;
+  background-color: #867bbc;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #FFFFFFA6;
+  border: 1px solid #867bbc;
+  border-right: none;
+  flex: 9;
+  border-radius: 8px 0 0 8px;
+}
+
+.browser input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.browser button {
+  border: 1px solid #867bbc;
+  border-radius: 0 8px 8px 0;
+  background-color: #574b94;
+  flex: 1;
+}
