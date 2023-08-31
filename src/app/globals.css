@@ -1,3 +1,10 @@
+:root {
+  --oil:#354648;
+  --azulated:#57837B;
+  --amarelo:#C0C67A;
+  --clear:#F9ECD6;
+  --ruby:#D14440;
+}
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -14,6 +21,10 @@ body {
 ::after {
   box-sizing: inherit;
 }
+::selection {
+  background-color: var(--clear);
+  color: oil;
+}
 /* Cambia el color del fondo de la barra de desplazamiento */
 ::-webkit-scrollbar {
   width: 10px;
@@ -26,13 +37,13 @@ body {
 
 /* Cambia el color del pulgar de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb {
-  background: #574b94;
+  background: var(--amarelo);
   border-radius: 5px;
 }
 
 /* Cambia el color del pulgar de la barra de desplazamiento al pasar el mouse */
 ::-webkit-scrollbar-thumb:hover {
-  background: #867bbc;
+  background: var(--azulated);
 }
 
 h1 {
@@ -64,13 +75,5 @@ a {
   color: inherit;
 }
 .body {
-  /* background-image: linear-gradient(
-    180deg,
-    #f2bfff 0,
-    #d5aeff 25%,
-    #b99df2 50%,
-    #9e8cd6 75%,
-    #867bbc 100%
-  ); */
-  background-color: #867bbc;
+  background-color: var(--oil);
 }

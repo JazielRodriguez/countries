@@ -3,6 +3,6 @@
 }
 
 .header h1 {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--clear);
   text-align: center;
 }

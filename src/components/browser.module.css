@@ -6,22 +6,24 @@
 .browser input {
   padding: 1rem;
   outline: none;
-  background-color: #867bbc;
-  background-color: rgba(255, 255, 255, 0.15);
-  color: #FFFFFFA6;
-  border: 1px solid #867bbc;
+  background-color: var(--azulated);
+  color: var(--clear);
+  border: none;
   border-right: none;
   flex: 9;
   border-radius: 8px 0 0 8px;
 }
 
 .browser input::placeholder {
-  color: rgba(255, 255, 255, 0.4);
+  color:var(--clear);
+  opacity: .5;
 }
 
 .browser button {
-  border: 1px solid #867bbc;
+  cursor: pointer;
+  outline: none;
+  border: none;
   border-radius: 0 8px 8px 0;
-  background-color: #574b94;
+  background-color: var(--amarelo);
   flex: 1;
 }

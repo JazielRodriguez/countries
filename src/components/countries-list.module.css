@@ -6,5 +6,10 @@
 }
 
 .list li a {
-  color: #FFFFFFA6
+  color: var(--clear);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) linear;
+}
+.list li a:hover {
+  font-size: 2rem;
+  color:var(--amarelo);
 }

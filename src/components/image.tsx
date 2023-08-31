@@ -1,7 +1,8 @@
 import Image from 'next/image'
-export default function CustomImage (props: { src: string, alt: string }) {
+import { type CustomImageProps } from '@/types'
+export default function CustomImage (props: CustomImageProps) {
   return (
-    <div style={{ position: 'relative', height: '300px', width: '300px' }}>
+    <div style={{ position: 'relative', height: props.height, width: props.width }}>
       <Image
         src={props.src}
         alt={`Flag of ${props.alt}`}

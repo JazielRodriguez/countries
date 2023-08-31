@@ -7,8 +7,8 @@ export default async function Home () {
   const countries = await getCountries()
   return (
     <main className={styles.container}>
-      <Glass width='50%'>
-        <Header />
+      <Glass>
+        <Header title='Global Country Facts'/>
         <CountriesList countries={countries} />
       </Glass>
     </main>
