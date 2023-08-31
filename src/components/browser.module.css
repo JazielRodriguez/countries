@@ -12,6 +12,7 @@
   border-right: none;
   flex: 9;
   border-radius: 8px 0 0 8px;
+  max-width: 100%;
 }
 
 .browser input::placeholder {
