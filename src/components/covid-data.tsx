@@ -17,7 +17,7 @@ export default function CovidData (props: CovidDataProps) {
             <p className={font}>- Total deaths: {props.data.total_deaths}</p>
             </li>
             <li>
-            <p className={font}>- Last update: {props.data.last_updated.slice(0, 9)}</p>
+            <p className={font}>- Last update: {props.data.last_updated.slice(0, 10)}</p>
             </li>
           </ul>
           )}
