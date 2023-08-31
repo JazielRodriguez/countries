@@ -27,3 +27,11 @@
   background-color: var(--amarelo);
   flex: 1;
 }
+@media screen and (max-width:600px) {
+  .browser input {
+    flex:8;
+  }
+  .browser button {
+    flex: 2;
+  }
+}
