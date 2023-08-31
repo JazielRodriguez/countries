@@ -1,6 +1,7 @@
 .browser {
   display: flex;
   padding: 1.5rem 0;
+  max-width: 100%;
 }
 
 .browser input {
@@ -10,7 +11,7 @@
   color: var(--clear);
   border: none;
   border-right: none;
-  flex: 9;
+  width: 85%;
   border-radius: 8px 0 0 8px;
   max-width: 100%;
 }
@@ -26,13 +27,5 @@
   border: none;
   border-radius: 0 8px 8px 0;
   background-color: var(--amarelo);
-  flex: 1;
-}
-@media screen and (max-width:600px) {
-  .browser input {
-    flex:8;
-  }
-  .browser button {
-    flex: 2;
-  }
+  width: 15%;
 }
